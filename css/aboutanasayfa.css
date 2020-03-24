@@ -32,5 +32,7 @@ ul {
     background-color: #4CAF50;
   }
  h1 {
-  font-family: 'Hammersmith One', sans-serif;
+    font-family: 'Hammersmith One', sans-serif;
+    margin-left: 33%;
+    margin-top: 19%;
  }
