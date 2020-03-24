@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  li {
+      float: left;    
+  }
+  li img {
+      margin-top: -5px;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 33px 200px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: green;
+  }
+  
+  .navbar {
+    background-color: #4CAF50;
+  }
+
+  #main {    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+  margin-top: 50px;
+  font-size: 25px;
+  }
+
+.slot1 {
+  vertical-align: middle;
+  width: 10%;
+  height: 10%;
+  margin-left: 10%;
+}
+
+.slot2 {
+  vertical-align: middle;
+  width: 10%;
+  height: 10%;
+  margin-left: 55%;
+}
+
+.slot3 {
+  vertical-align: middle;
+  width: 10%;
+  height: 10%;
+  margin-left: 10%;
+}
+
+.slot4 {
+  vertical-align: middle;
+  width: 10%;
+  height: 10%;
+  margin-left: 55%; 
+}
+
+.slot5 {
+
+  margin-left: 40%; 
+}
+
+#slot {
+  margin-top: 20%;
+}
+h2 {
+  font-size: 45px;
+  font-family: 'Raleway', sans-serif;
+}
+h1 {
+  font-family: 'Noto Sans JP', sans-serif;
+}
